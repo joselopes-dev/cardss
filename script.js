@@ -142,7 +142,11 @@ function startGame() {
 
   shuffleElements(document.getElementById('drag-container'));
   shuffleElements(document.getElementById('drop-area-container'));
+
+  // Adicionar suporte a toque
+  addTouchSupport(); // <-- Adiciona essa linha
 }
+//até aqui
 
 // Permitir que os elementos possam ser soltos
 function allowDrop(event) {
@@ -264,6 +268,7 @@ function touchStart(event) {
 }
 
 // Movimentar o toque
+//mudar para esse codigo
 function touchMove(event) {
   if (!touchData.dragging) return;
   
@@ -276,19 +281,17 @@ function touchMove(event) {
     touchData.clone.style.top = `${touch.clientY}px`;
   }
 
-  // Adicionar classe de drag-over se estiver sobre uma drop area
+  // Verificar o elemento atual sob o toque
   const dropTarget = document.elementFromPoint(touch.clientX, touch.clientY);
   if (dropTarget && dropTarget.classList.contains('drop-area')) {
     dropTarget.classList.add('drag-over');
-  }
-
-  // Remover a classe de drag-over de outras drop areas
-  document.querySelectorAll('.drop-area').forEach(function(area) {
-    if (area !== dropTarget) {
+  } else {
+    document.querySelectorAll('.drop-area').forEach(function(area) {
       area.classList.remove('drag-over');
-    }
-  });
+    });
+  }
 }
+//até aqui
 
 // Finalizar o toque
 function touchEnd(event) {
