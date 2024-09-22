@@ -45,18 +45,18 @@ const games = {
   1: {
     name: "Tags HTML",
     images: [
-      { id: "img1", src: "imagens/imagem_head.png", answer: "drop1" },
-      { id: "img2", src: "imagens/imagem_title.png", answer: "drop2" },
-      { id: "img3", src: "imagens/tags-html.png", answer: "drop3" },
-      { id: "img4", src: "imagens/imagem_meta.png", answer: "drop4" },
-      { id: "img5", src: "imagens/imagem_link.png", answer: "drop5" },
-      { id: "img6", src: "imagens/imagem_style.png", answer: "drop6" },
-      { id: "img7", src: "imagens/imagem_script.png", answer: "drop7" },
-      { id: "img8", src: "imagens/imagem_bory.png", answer: "drop8" },
-      { id: "img9", src: "imagens/imagem_h1_h6.png", answer: "drop9" },
-      { id: "img10", src: "imagens/imagem_p.png", answer: "drop10" },
-      { id: "img11", src: "imagens/imagem_a.png", answer: "drop11" },
-      { id: "img12", src: "imagens/imagem_img.png", answer: "drop12" }
+      { id: "img1", src: "./imagem_head.png", answer: "drop1" },
+      { id: "img2", src: "./imagem_title.png", answer: "drop2" },
+      { id: "img3", src: "./tags-html.png", answer: "drop3" },
+      { id: "img4", src: "./imagem_meta.png", answer: "drop4" },
+      { id: "img5", src: "./imagem_link.png", answer: "drop5" },
+      { id: "img6", src: "./imagem_style.png", answer: "drop6" },
+      { id: "img7", src: "./imagem_script.png", answer: "drop7" },
+      { id: "img8", src: "./imagem_bory.png", answer: "drop8" },
+      { id: "img9", src: "./imagem_h1_h6.png", answer: "drop9" },
+      { id: "img10", src: "./imagem_p.png", answer: "drop10" },
+      { id: "img11", src: "./imagem_a.png", answer: "drop11" },
+      { id: "img12", src: "./imagem_img.png", answer: "drop12" }
     ],
     dropAreas: [
       { id: "drop1", label: "Contém metadados sobre o documento" },
@@ -76,18 +76,18 @@ const games = {
   2: {
     name: "Tags HTML",
     images: [
-      { id: "imgA", src: "imagens/imagem_ul.png", answer: "dropA" },
-      { id: "imgB", src: "imagens/imagem_ol.png", answer: "dropB" },
-      { id: "imgC", src: "imagens/imagem_li.png", answer: "dropC" },
-      { id: "imgD", src: "imagens/imagem_div.png", answer: "dropD" },
-      { id: "imgE", src: "imagens/imagem_span.png", answer: "dropE" },
-      { id: "imgF", src: "imagens/imagem_form.png", answer: "dropF" },
-      { id: "imgG", src: "imagens/imagem_imput.png", answer: "dropG" },
-      { id: "imgH", src: "imagens/imagem_buton.png", answer: "dropH" },
-      { id: "imgI", src: "imagens/imagem_table.png", answer: "dropI" },
-      { id: "imgJ", src: "imagens/imagem_tr.png", answer: "dropJ" },
-      { id: "imgL", src: "imagens/imagem_td.png", answer: "dropL" },
-      { id: "imgM", src: "imagens/imagem_th.png", answer: "dropM" }
+      { id: "imgA", src: "./imagem_ul.png", answer: "dropA" },
+      { id: "imgB", src: "./imagem_ol.png", answer: "dropB" },
+      { id: "imgC", src: "./imagem_li.png", answer: "dropC" },
+      { id: "imgD", src: "./imagem_div.png", answer: "dropD" },
+      { id: "imgE", src: "./imagem_span.png", answer: "dropE" },
+      { id: "imgF", src: "./imagem_form.png", answer: "dropF" },
+      { id: "imgG", src: "./imagem_imput.png", answer: "dropG" },
+      { id: "imgH", src: "./imagem_buton.png", answer: "dropH" },
+      { id: "imgI", src: "./imagem_table.png", answer: "dropI" },
+      { id: "imgJ", src: "./imagem_tr.png", answer: "dropJ" },
+      { id: "imgL", src: "./imagem_td.png", answer: "dropL" },
+      { id: "imgM", src: "./imagem_th.png", answer: "dropM" }
       // Adicione mais imagens e respostas aqui
     ],
     dropAreas: [
