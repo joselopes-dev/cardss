@@ -110,18 +110,18 @@ const games = {
   3: {
     name: "Tags HTML",
     images: [
-      { id: "img13", src: "imagens/imagem_header.png", answer: "drop13" },
-      { id: "img14", src: "imagens/imagem_nav.png", answer: "drop14" },
-      { id: "img15", src: "imagens/imagem_section.png", answer: "drop15" },
-      { id: "img16", src: "imagens/imagem_article.png", answer: "drop16" },
-      { id: "img17", src: "imagens/imagem_footer.png", answer: "drop17" },
-      { id: "img18", src: "imagens/imagem_aside.png", answer: "drop18" },
-      { id: "img19", src: "imagens/imagem_video.png", answer: "drop19" },
-      { id: "img20", src: "imagens/imagem_audio.png", answer: "drop20" },
-      { id: "img21", src: "imagens/imagem_select.png", answer: "drop21" },
-      { id: "img22", src: "imagens/imagem_main.png", answer: "drop22" },
-      { id: "img23", src: "imagens/imagem_figure.png", answer: "drop23" },
-      { id: "img24", src: "imagens/imagem_mark.png", answer: "drop24" }
+      { id: "img13", src: "./imagem_header.png", answer: "drop13" },
+      { id: "img14", src: "./imagem_nav.png", answer: "drop14" },
+      { id: "img15", src: "./imagem_section.png", answer: "drop15" },
+      { id: "img16", src: "./imagem_article.png", answer: "drop16" },
+      { id: "img17", src: "./imagem_footer.png", answer: "drop17" },
+      { id: "img18", src: "./imagem_aside.png", answer: "drop18" },
+      { id: "img19", src: "./imagem_video.png", answer: "drop19" },
+      { id: "img20", src: "./imagem_audio.png", answer: "drop20" },
+      { id: "img21", src: "./imagem_select.png", answer: "drop21" },
+      { id: "img22", src: "./imagem_main.png", answer: "drop22" },
+      { id: "img23", src: "./imagem_figure.png", answer: "drop23" },
+      { id: "img24", src: "./imagem_mark.png", answer: "drop24" }
       // Adicione mais imagens e respostas aqui
     ],
     dropAreas: [
