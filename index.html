@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code - X</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <h2>Associe as respostas</h2>
+
+  <!-- Seleção do jogo -->
+  <select id="game-selector" onchange="startGame()">
+    <option value="1">Jogo 1 - Tags HTML</option>
+    <option value="2">Jogo 2 - Tags HTML</option>
+    <!-- Adicione mais jogos aqui -->
+  </select>
+
+  <!-- Contêiner das áreas de drop -->
+  <div class="drop-area-container" id="drop-area-container">
+    <!-- Áreas de drop serão geradas dinamicamente -->
+  </div>
+
+  <!-- Imagens arrastáveis -->
+  <div class="conteine1">
+    <div class="drag-container" id="drag-container">
+      <!-- Imagens serão geradas dinamicamente -->
+    </div>
+  </div>
+
+  <div class="botoes">
+    <button class="proximo1" onclick="restartGame()">Reiniciar Jogo</button>
+    <!--<button class="proximo"><a href="#">Próximo</a></button>-->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
